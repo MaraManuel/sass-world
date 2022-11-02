@@ -1,0 +1,27 @@
+@import './variables';
+@import './balls';
+
+@mixin flexCenter($justify,$color)
+{
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    background-color: $color;
+    flex-direction: row;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    
+    @include flexCenter(space-between, #001f62);
+    width: 100%;
+    height: 100%;
+
+}
+

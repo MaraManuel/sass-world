@@ -1,0 +1,29 @@
+.bola1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #6aa6ff;
+  display: inline-block;
+}
+.bola1 a {
+  color: #ffffff;
+}
+.bola1:hover {
+  background-color: rgba(130, 138, 255, 0.4352941176);
+}
+
+.bola2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.bola3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #515356;
+  display: inline-block;
+}/*# sourceMappingURL=balls.css.map */
